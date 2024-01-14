@@ -6,3 +6,12 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+.editor-placeholder {
+	margin-left: var(--size-4-2);
+	color: var(--color-base-40);
+}
+
+.editor-placeholder[data-ph="long"] {
+	margin-left: var(--size-4-2);
+	color: var(--color-accent);
+}
